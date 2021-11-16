@@ -12,7 +12,6 @@ setup(
         'tweepy',
         'discord',
         'datetime',
-        'time',
         'requests',
         'typing',
     ]
