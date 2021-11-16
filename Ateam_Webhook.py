@@ -21,7 +21,7 @@ api = tweepy.API(auth)
 
 
 #latest tweet
-tweet_list = api.user_timeline(screen_name="gangsta_muffin", count=1, include_rts = False, exclude_replies = True)
+tweet_list = api.user_timeline(screen_name="Battlefield", count=1, include_rts = False, exclude_replies = True)
 latest_tweet = tweet_list[0]
 tweet_msg = latest_tweet.text
 
@@ -32,7 +32,7 @@ tweet_id_link = str(tweet_list[0].id)
 
 #print latest tweets, plus a url to the tweet
 print(latest_tweet.text)
-print("https://twitter.com/gangsta_muffin/status/" + tweet_id_link)
+print("https://twitter.com/Battlefield/status/" + tweet_id_link)
 
 
 #set most recent recorded tweet to tweet id for boot-up and functionality purposes
@@ -53,7 +53,7 @@ while True:
 
 
 
-    tweet_list = api.user_timeline(screen_name="gangsta_muffin", count=1, include_rts = False, exclude_replies = True)
+    tweet_list = api.user_timeline(screen_name="Battlefield", count=1, include_rts = False, exclude_replies = True)
     latest_tweet = tweet_list[0]
     tweet_msg = latest_tweet.text
 
@@ -68,7 +68,7 @@ while True:
     
     print("")
     
-    print(last_upload_tweet)
+    print(last_uploaded_tweet)
     
     print("")
 
@@ -78,7 +78,7 @@ while True:
 
     #check if the tweet is new by comparing ids
 
-    if tweet_id == last_upload_tweet:
+    if tweet_id == last_uploaded_tweet:
         print("no tweet")
         time.sleep(1)
     
@@ -94,5 +94,5 @@ while True:
         webhook.send(username="A_Team", embed = embedWebhook)
 
         
-        last_upload_tweet = tweet_list[0].id
+        last_uploaded_tweet = tweet_list[0].id
         time.sleep(1)
