@@ -11,6 +11,7 @@ setup(
     install_requires=[
         'tweepy',
         'discord',
+        'discord.embeds',
         'datetime',
         'requests',
         'typing',
