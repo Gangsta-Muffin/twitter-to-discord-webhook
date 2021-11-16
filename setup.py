@@ -1,0 +1,19 @@
+from setuptools import *
+
+setup(
+    name='Webhook',
+    description='Twiter to discord webhook',
+    version='1.0',
+    author='Gangsta Muffin',
+    python_require='>=3.0',
+    packages=find_packages(),
+    install_package_data=True,
+    install_requires=[
+        'tweepy',
+        'discord',
+        'datetime',
+        'time',
+        'requests',
+        'typing',
+    ]
+)
