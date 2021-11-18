@@ -14,4 +14,4 @@
 
 
 # Lastly, using this code, you will want to change the "screen_name" in each link to the account you wish to have the webhook follow.
-# To do this, go to each Link in the code and swap "BattlefieldComm" to the name of the account you wish to follow (must be the @ name of the user)
+# To do this, go to each Link in the code and swap "BattlefieldComm" to the name of the account you wish to connect to the webhook (must be the @ name of the user)
