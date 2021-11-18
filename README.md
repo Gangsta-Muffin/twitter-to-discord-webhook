@@ -8,7 +8,7 @@
 
 # To get the id and token from your Webhook, copy the url and past it somewhere. The Id and Token will be in the link in the following Format:
 # "https://discord.com/api/webhooks/ID/TOKEN"
-
+#
 # The Project version and the Replit version do not have any difference, other than the Replit version being able to run 24/7
 # If you decide to run the replit version 24/7, you will need to set up an external monitor for it to run 24/7. I used https://uptimerobot.com/ but the choice is yours
 
