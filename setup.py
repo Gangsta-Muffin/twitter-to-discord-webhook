@@ -2,7 +2,7 @@ from setuptools import *
 
 setup(
     name='Webhook',
-    description='Twiter to discord webhook',
+    description='Twiter to discord webhook for Battlefield community',
     version='1.0',
     author='Gangsta Muffin',
     python_require='>=3.0',
