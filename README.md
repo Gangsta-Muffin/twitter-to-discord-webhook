@@ -3,7 +3,7 @@
 # This Webhook was made for a streamer's discord community, following the game "Battlefield"
 #
 
-# If you wish to use this code, you must apply for you own consumer keys and access tokens on the twitter.developer Website
+# If you wish to use this code, you must apply for you own consumer keys and access tokens at: https://developer.twitter.com/en
 # You will also need to get your own Webhook id and token from your discord webhook
 
 # The Project version and the Replit version do not have any difference, other than the Replit version being able to run 24/7
